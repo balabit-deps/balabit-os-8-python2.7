@@ -1,3 +1,32 @@
+python2.7 (2.7.18-1~20.04.1) focal-security; urgency=medium
+
+  * SECURITY UPDATE: Denial of service
+    - debian/patches/CVE-2019-9674.patch: add pitfalls to
+      zipfile module doc in Doc/library/zipfile.rst,
+      Misc/NEWS.d/next/Documentation/2019-06-04-09-29-00.bpo-36260.WrGuc-.rst.
+    - CVE-2019-9674
+  * SECURITY UPDATE: Misleading information
+    - debian/patches/CVE-2019-17514.patch: explain that the orderness of the
+      of the result is system-dependant in Doc/library/glob.rst.
+    - CVE-2019-17514
+  * SECURITY UPDATE: Infinite loop
+    - debian/patches/CVE-2019-20907.patch: avoid infinite loop in the
+      tarfile module in Lib/tarfile.py, Lib/test/test_tarfile.py.
+    - CVE-2019-20907
+  * SECURITY UPDATE: Denial of service
+    - debian/patches/CVE-2020-8492.patch: fix the regex to prevent
+      the regex denial of service in Lib/urllib2.py.
+    - CVE-2020-8492
+  * SECURITY UPDATE: CRLF injection
+    - debian/patches/CVE-2020-26116.patch: prevent header injection
+      in http methods in Lib/httplib.py, Lib/test/test_httlib.py.
+    - CVE-2020-26116
+  * SECURITY UPDATE: Buffer overflow
+    - debian/patches/CVE-2021-3177.patch: use improved patch backport.
+    - CVE-2021-3177
+
+ -- Paulo Flabiano Smorigo <pfsmorigo@canonical.com>  Mon, 08 Mar 2021 13:02:45 +0000
+
 python2.7 (2.7.18-1~20.04) focal; urgency=medium
 
   * SRU: LP: #1890272: Update to to the final 2.7.18 release.

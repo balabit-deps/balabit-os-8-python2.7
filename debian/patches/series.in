@@ -72,3 +72,9 @@ local-doc-references.diff
 m-i-p-s-r6.diff
 multiarch-libc.diff
 end-of-life.diff
+CVE-2020-8492.patch
+CVE-2019-17514.patch
+CVE-2019-20907.patch
+CVE-2019-9674.patch
+CVE-2020-26116.patch
+CVE-2021-3177.patch
