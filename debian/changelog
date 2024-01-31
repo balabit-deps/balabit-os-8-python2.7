@@ -1,3 +1,10 @@
+python2.7 (2.7.18-1~20.04.4) focal; urgency=medium
+
+  * Add d/p/add-optimization-flags-to-cflags.diff: Add optimization flags to
+    cflags when compiling C modules. (LP: #2002043)
+
+ -- Mitchell Dzurick <mitchell.dzurick@canonical.com>  Wed, 31 Jan 2024 09:23:13 -0700
+
 python2.7 (2.7.18-1~20.04.3) focal-security; urgency=medium
 
   * SECURITY UPDATE: Injection Attack
