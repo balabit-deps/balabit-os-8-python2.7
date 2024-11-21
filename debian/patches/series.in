@@ -80,3 +80,6 @@ CVE-2020-26116.patch
 CVE-2021-3177.patch
 CVE-2015-20107.patch
 lp2002043-add-optimization-flags-to-cflags.patch
+CVE-2024-6232.patch
+CVE-2024-6923.patch
+fix-regression-lp2089071.patch
